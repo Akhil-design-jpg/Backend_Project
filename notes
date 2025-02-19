@@ -10,5 +10,5 @@ solution - use async await
 
 solution - use trycatch 
 
-
+MongoDb is like a warehouse where data is stored and mongoose is like the manager that organizes and validates data before storing.
 
