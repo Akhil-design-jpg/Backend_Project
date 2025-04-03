@@ -2,12 +2,14 @@ class ApiError extends Error{
     constructor(
         statusCode,
         message= "Something went wrong",
-        errors= [],
+        errors= [], // array for multiple errors
         stack= ""
+        
     ){
+        // overwrite constructor
         super(message)
         this.statusCode= statusCode
-        this.data = null // ask chatgpt 
+        this.data = null // reserverd for future use
         this.message = message
         this.success = false
         this.errors = errors
