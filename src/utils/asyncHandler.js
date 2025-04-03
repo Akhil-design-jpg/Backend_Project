@@ -15,7 +15,7 @@ export {asyncHandler}
 // const asyncHandler = (func) =>{}
 // const asyncHandler = (func) => {()=>{}}
 // this is what it means in the next line 
-// const asyncHandler = (func) =>async() =>{} // higher order function where function is passed as paramter or a variable
+// const asyncHandler = (func) =>async() =>{} // higher order function where function(func) is passed as paramter or a variable
 
 // for try catch
 // pass to another function and async it 
