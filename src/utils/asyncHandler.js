@@ -36,7 +36,7 @@ export {asyncHandler}
     Same as above, but the returned function is asynchronous (async).
     Used when the inner function (func) involves asynchronous operations
 
-/
+*/
 
 
 
