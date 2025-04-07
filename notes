@@ -1,0 +1,14 @@
+PS C:\Users\Akhil verma\Backend_Project> New-Item -Path controllers, db, middlewares, models, routes, utils -ItemType Directory
+>>
+create new files
+
+Database can be from another continent like France, USA so it may take time to fetch if possible
+so basic approach is use try catch
+problems occur when try to access the database 
+also it takes time when trying to access for that 
+solution - use async await
+
+solution - use trycatch 
+
+MongoDb is like a warehouse where data is stored and mongoose is like the manager that organizes and validates data before storing.
+
