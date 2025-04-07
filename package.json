@@ -1,10 +1,18 @@
 {
-<<<<<<< HEAD
-  "name": "Backend_project",
+  "name": "backend_project",
   "version": "1.0.0",
   "description": "> Express: fast, unopinionated, minimalist web framework for Node.js",
   "type": "module",
   "main": "index.js",
+  "keywords": [
+    "javascript",
+    "backend"
+  ],
+  "author": "Akhil Verma",
+  "license": "ISC",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
   "dependencies": {
     "accepts": "^1.3.8",
     "array-flatten": "^1.1.1",
@@ -62,7 +70,6 @@
     "on-finished": "^2.4.1",
     "parseurl": "^1.3.3",
     "path-to-regexp": "^0.1.10",
-    "prettier": "^3.5.1",
     "proxy-addr": "^2.0.7",
     "qs": "^6.13.0",
     "range-parser": "^1.2.1",
@@ -81,44 +88,9 @@
     "utils-merge": "^1.0.1",
     "vary": "^1.1.2"
   },
-  "scripts": {
-    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
-  },
-=======
-  "name": "backend_project",
-  "version": "1.0.0",
-  "description": "",
-  "type": "module",
->>>>>>> 2c1a56955f3282938aff2c48c49bdbd80b74cf72
-  "keywords": [
-    "javascript",
-    "backend"
-  ],
-<<<<<<< HEAD
-  "author": "Akhil Verma",
-  "license": "ISC",
-  "devDependencies": {
-    "typescript": "^5.8.2"
-=======
-  "license": "ISC",
-  "author": "Akhil Verma",
-  "main": "index.js",
-  "scripts": {
-    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
-  },
   "devDependencies": {
     "nodemon": "^3.1.9",
-    "prettier": "^3.5.0"
-  },
-  "dependencies": {
-    "bcrypt": "^5.1.1",
-    "cookie-parser": "^1.4.7",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.10.1",
-    "mongoose-aggregate-paginate-v2": "^1.1.4"
->>>>>>> 2c1a56955f3282938aff2c48c49bdbd80b74cf72
+    "prettier": "^3.5.1",
+    "typescript": "^5.8.2"
   }
 }
